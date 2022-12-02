@@ -15,7 +15,6 @@ public class BackstageItemTest {
         item.setName("Backstage passes to a TAFKAL80ETC concert");
         item.setQuality(10);
         item.setSellIn(11);
-
         gildedRose.updateQuality();
 
         assertEquals(11, item.getQuality());
@@ -27,7 +26,6 @@ public class BackstageItemTest {
         item.setName("Backstage passes to a TAFKAL80ETC concert");
         item.setQuality(50);
         item.setSellIn(11);
-
         gildedRose.updateQuality();
 
         assertEquals(50, item.getQuality());
@@ -39,7 +37,6 @@ public class BackstageItemTest {
         item.setName("Backstage passes to a TAFKAL80ETC concert");
         item.setQuality(10);
         item.setSellIn(10);
-
         gildedRose.updateQuality();
 
         assertEquals(12, item.getQuality());
@@ -51,7 +48,6 @@ public class BackstageItemTest {
         item.setName("Backstage passes to a TAFKAL80ETC concert");
         item.setQuality(49);
         item.setSellIn(10);
-
         gildedRose.updateQuality();
 
         assertEquals(50, item.getQuality());
@@ -63,7 +59,6 @@ public class BackstageItemTest {
         item.setName("Backstage passes to a TAFKAL80ETC concert");
         item.setQuality(10);
         item.setSellIn(5);
-
         gildedRose.updateQuality();
 
         assertEquals(13, item.getQuality());
@@ -75,7 +70,6 @@ public class BackstageItemTest {
         item.setName("Backstage passes to a TAFKAL80ETC concert");
         item.setQuality(48);
         item.setSellIn(5);
-
         gildedRose.updateQuality();
 
         assertEquals(50, item.getQuality());
@@ -87,7 +81,6 @@ public class BackstageItemTest {
         item.setName("Backstage passes to a TAFKAL80ETC concert");
         item.setQuality(10);
         item.setSellIn(0);
-
         gildedRose.updateQuality();
 
         assertEquals(0, item.getQuality());

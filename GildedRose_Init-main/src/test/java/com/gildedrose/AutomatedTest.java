@@ -27,6 +27,7 @@ public class AutomatedTest {
                 System.out.println(items[j]);
             }
             System.out.println("");
+
             app.updateQuality();
         }
     }

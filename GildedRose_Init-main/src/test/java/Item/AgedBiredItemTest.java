@@ -18,7 +18,6 @@ public class AgedBiredItemTest {
         item.setName("Aged Brie");
         item.setQuality(10);
         item.setSellIn(10);
-
         gildedRose.updateQuality();
 
         assertEquals(11, item.getQuality());
@@ -30,7 +29,6 @@ public class AgedBiredItemTest {
         item.setName("Aged Brie");
         item.setQuality(10);
         item.setSellIn(0);
-
         gildedRose.updateQuality();
 
         assertEquals(12, item.getQuality());
@@ -42,7 +40,6 @@ public class AgedBiredItemTest {
         item.setName("Aged Brie");
         item.setQuality(50);
         item.setSellIn(10);
-
         gildedRose.updateQuality();
 
         assertEquals(50, item.getQuality());
@@ -54,7 +51,6 @@ public class AgedBiredItemTest {
         item.setName("Aged Brie");
         item.setQuality(50);
         item.setSellIn(0);
-
         gildedRose.updateQuality();
 
         assertEquals(50, item.getQuality());

@@ -15,7 +15,6 @@ public class SulfurasItemTest {
         item.setName("Sulfuras, Hand of Ragnaros");
         item.setQuality(10);
         item.setSellIn(10);
-
         gildedRose.updateQuality();
 
         assertEquals(10, item.getQuality());
@@ -27,7 +26,6 @@ public class SulfurasItemTest {
         item.setName("Sulfuras, Hand of Ragnaros");
         item.setQuality(80);
         item.setSellIn(-1);
-
         gildedRose.updateQuality();
 
         assertEquals(80, item.getQuality());

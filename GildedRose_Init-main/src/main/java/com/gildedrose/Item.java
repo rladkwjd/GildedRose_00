@@ -13,9 +13,27 @@ public class Item {
         this.sellIn = sellIn;
         this.quality = quality;
     }
+    public void setName(String aged_brie) {
+        this.name = name;
+    }
+    public void setSellIn(int i) {
+        this.sellIn = sellIn;
+    }
+    public int getSellIn() {
+        return sellIn;
+    }
+    public void setQuality(int i) {
+        this.quality = quality;
+    }
+    public int getQuality() {
+        return quality;
+    }
 
    @Override
    public String toString() {
         return this.name + ", " + this.sellIn + ", " + this.quality;
     }
+
+
+
 }

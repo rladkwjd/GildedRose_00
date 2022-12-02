@@ -15,6 +15,7 @@ public class GildedRoseTest {
         Item[] items = new Item[] { new Item(item, sellin, quality)};
         GildedRose app = new GildedRose(items);
         app.updateQuality();
+
         return app;
     }
 }

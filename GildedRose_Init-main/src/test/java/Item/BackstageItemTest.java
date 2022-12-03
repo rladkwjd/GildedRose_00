@@ -1,8 +1,8 @@
 package Item;
 
+import org.junit.jupiter.api.Test;
 import com.gildedrose.GildedRose;
 import com.gildedrose.Item;
-import org.junit.jupiter.api.Test;
 
 public class BackstageItemTest {
     Item item = new Item("+5 Dexterity Vest", 10, 20);

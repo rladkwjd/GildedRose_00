@@ -1,9 +1,10 @@
 package Item;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import com.gildedrose.GildedRose;
 import com.gildedrose.Item;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 public class SulfurasItemTest {
     Item item = new Item("+5 Dexterity Vest", 10, 20);

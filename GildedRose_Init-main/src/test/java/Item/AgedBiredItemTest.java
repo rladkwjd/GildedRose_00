@@ -9,6 +9,7 @@ import java.util.Arrays;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AgedBiredItemTest {
+
     private Arrays Arrays;
     Item item = new Item("+5 Dexterity Vest", 10, 20);
     GildedRose gildedRose = new GildedRose(new Item[]{item});

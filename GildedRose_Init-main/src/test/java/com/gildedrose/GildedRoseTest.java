@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class GildedRoseTest {
-
     @Test
     public void foo() {
         GildedRose app = testItem("test", 0, 0);
@@ -12,7 +11,7 @@ public class GildedRoseTest {
     }
 
     private GildedRose testItem(String item, Integer sellin, Integer quality) {
-        Item[] items = new Item[] { new Item(item, sellin, quality)};
+        Item[] items = new Item[]{new Item(item, sellin, quality)};
         GildedRose app = new GildedRose(items);
         app.updateQuality();
 
